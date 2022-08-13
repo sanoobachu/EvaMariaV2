@@ -368,7 +368,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{files.file_name}"
         buttons = [[
-            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/new_movies_group_2021')
+            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/+RUtiUOj1Bx9mNjE1')
          ]]
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -415,7 +415,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         buttons = [[
-            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/new_movies_group_2021')
+            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/+RUtiUOj1Bx9mNjE1')
          ]]
         await query.answer()
         await client.send_cached_media(
@@ -431,8 +431,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/new_movies_group_2021'),
-            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ🌹', url='https://t.me/movies_club_2020')
+            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/+RUtiUOj1Bx9mNjE1'),
+            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ🌹', url='https://t.me/CS_Series')
             ],[
             InlineKeyboardButton('🌹Hᴇʟᴘ 🌹', callback_data='help'),
             InlineKeyboardButton('🌹Aʙᴏᴜᴛ🌹', callback_data='about')
@@ -463,7 +463,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/new_movies_group_2021'),
+            InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs', url='https://t.me/CS_TeamTG'),
             InlineKeyboardButton('♥️ Sᴏᴜʀᴄᴇ', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
