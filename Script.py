@@ -5,21 +5,21 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Heyboy2004>𝙲𝚁𝙴𝙰𝚃𝙾𝚁</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ 🇮🇳</a>
+✯ Hᴇʟᴘᴇʀ: <a href=https://t.me/Heyboy2004>Hᴇʏ Bᴏʏ 🇮🇳</a>
+✯ Hᴇʟᴘᴇʀ: <a href=https://t.me/NAZZY_FF>Nᴀᴀᴄʜᴜ 🇮🇳</a>
+✯ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
+✯ Bᴏᴛ Sᴇʀᴠᴇʀ: Hᴇʀᴏᴋᴜ
+✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ1.0.1 [ Bᴇᴛᴀ ]"""
 
     ENGLISHSPELL_TXT = f"<b>𝖲ᴏʀʀʏ 𝖭ᴏ 𝖥ɪʟᴇ𝗌 𝖶ᴇʀᴇ 𝖥ᴏᴜɴᴅ.\n\n𝖢ʜᴇᴄᴋ 𝖸ᴏᴜʀ 𝖲ᴘᴇʟʟɪɴɢ ɪɴ 𝖦ᴏᴏɢʟᴇ ᴀɴᴅ 𝖳ʀʏ 𝖠ɢᴀɪɴ. ♻️\n\n𝖱ᴇᴀᴅ 𝖨ɴ𝗌ᴛʀᴜᴄᴛɪᴏɴ𝗌 ғᴏʀ ʙᴇᴛᴛᴇʀ 𝖱ᴇ𝗌ᴜʟᴛ𝗌 👇🏻</b>"
 
     SOURCE_TXT = """<b>NOTE:</b>
-- 𝗢𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗰𝗼𝗱𝗲
+- Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ
 - Source - <a href=https://t.me/Heyboy2004>Cᴏɴᴛᴀᴄᴛ</a>
 
-<b>DEVS:</b>
-- <a href=https://t.me/Heyboy2004>𝘾𝙍𝙀𝘿𝙄𝙏𝙊𝙍</a>"""
+<b>Dᴇᴠs:</b>
+- <a href=https://t.me/CS_Nikitha>Oᴡɴᴇʀ</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
