@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🌹 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🌹', url='https://t.me/movies_club_2020')
+                InlineKeyboardButton('🌹 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🌹', url='https://t.me/+RUtiUOj1Bx9mNjE1')
             ],
             [
                 InlineKeyboardButton('🌹 Hᴇʟᴘ 🌹', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/new_movies_group_2021'),
-            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/movies_club_2020')
+            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/+RUtiUOj1Bx9mNjE1'),
+            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/CS_Series')
             ],[
             InlineKeyboardButton('🌹 Hᴇʟᴘ 🌹', callback_data='help'),
             InlineKeyboardButton('🌹Aʙᴏᴜᴛ🌹', callback_data='about')
@@ -90,8 +90,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/new_movies_group_2021'),
-            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/movies_club_2020')
+            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/+RUtiUOj1Bx9mNjE1'),
+            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/CS_Series')
             ],[
             InlineKeyboardButton('🌹 Hᴇʟᴘ 🌹', callback_data='help'),
             InlineKeyboardButton('🌹Aʙᴏᴜᴛ🌹', callback_data='about')
@@ -241,7 +241,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     buttons = [[
-            InlineKeyboardButton('💥 CS - Tᴇᴀᴍ 💥', url='https://t.me/new_movies_group_2021')
+            InlineKeyboardButton('💥 CS - Tᴇᴀᴍ 💥', url='https://t.me/CS_TeamTG')
         ]]
     await client.send_cached_media(
         chat_id=message.from_user.id,
