@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('𝖬𝖮𝖵𝖨𝖤 𝖦𝖱𝖮𝖴𝖯', url='https://t.me/movies_club_2020')
+                InlineKeyboardButton('🌹 Mᴏᴠɪᴇ Gʀᴏᴜᴘ 🌹', url='https://t.me/movies_club_2020')
             ],
             [
-                InlineKeyboardButton('𝖧𝖾𝗅𝗉', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🌹 Hᴇʟᴘ 🌹', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝗠𝗔𝗜𝗡 𝗚𝗥𝗢𝗨𝗣', url='https://t.me/new_movies_group_2021'),
-            InlineKeyboardButton('𝗚𝗥𝗢𝗨𝗣 𝗜𝗜', url='https://t.me/movies_club_2020')
+            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/new_movies_group_2021'),
+            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/movies_club_2020')
             ],[
-            InlineKeyboardButton('𝖧𝖾𝗅𝗉', callback_data='help'),
-            InlineKeyboardButton('𝖠𝖻𝗈𝗎𝗍', callback_data='about')
+            InlineKeyboardButton('🌹 Hᴇʟᴘ 🌹', callback_data='help'),
+            InlineKeyboardButton('🌹Aʙᴏᴜᴛ🌹', callback_data='about')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -90,11 +90,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝗠𝗔𝗜𝗡 𝗚𝗥𝗢𝗨𝗣', url='https://t.me/new_movies_group_2021'),
-            InlineKeyboardButton('𝗚𝗥𝗢𝗨𝗣 𝗜𝗜', url='https://t.me/movies_club_2020')
+            InlineKeyboardButton('🌹 Mᴏᴠɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/new_movies_group_2021'),
+            InlineKeyboardButton('🌹 Sᴇʀɪᴇs Gʀᴏᴜᴘ 🌹', url='https://t.me/movies_club_2020')
             ],[
-            InlineKeyboardButton('𝖧𝖾𝗅𝗉', callback_data='help'),
-            InlineKeyboardButton('𝖠𝖻𝗈𝗎𝗍', callback_data='about')
+            InlineKeyboardButton('🌹 Hᴇʟᴘ 🌹', callback_data='help'),
+            InlineKeyboardButton('🌹Aʙᴏᴜᴛ🌹', callback_data='about')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -241,7 +241,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     buttons = [[
-            InlineKeyboardButton('𖣘 𝗠𝗢𝗩𝗜𝗘𝗦 𝗚𝗥𝗢𝗨𝗣 𖣘', url='https://t.me/new_movies_group_2021')
+            InlineKeyboardButton('💥 CS - Tᴇᴀᴍ 💥', url='https://t.me/new_movies_group_2021')
         ]]
     await client.send_cached_media(
         chat_id=message.from_user.id,
